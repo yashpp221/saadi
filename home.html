@@ -17,6 +17,9 @@
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 
 <link rel="stylesheet" href="allplugins.css">
@@ -106,31 +109,22 @@
 </div>
 </div>
 </div>
-</section>
-<script>        
-$(document).ready(function() {
-  $('.sliders').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 2000
-    // Add more options and customization as needed
-  });
-});
-</script>  
+</section>      
 <script>
   $(document).ready(function() {
-    $('.sliders').slick({
-      // Add your desired options here
-      autoplay: true,
+    $('.slider-list').slick({
+      arrows: false,
       dots: true,
-      arrows: true,
-      // ...
+      autoplay: true,
+      autoplaySpeed: 5000,
+      infinite: true,
+      speed: 1000,
+      fade: true,
+      cssEase: 'linear',
     });
   });
 </script>
+
 
 <header id="sticky">
 <div class="container-fluid">
