@@ -1908,19 +1908,6 @@ header .main-menus nav ul li a:hover {
         padding:0 0 50px;
         width: 100%
     }
-
-
-@media only screen and (max-width: 480px) {
-    .slider-area .sliders .slider-list .slider-con .content {
-        padding:0 0 50px;
-        width: 100%
-    }
-
-@media only screen and (max-width: 480px) {
-    .slider-area .sliders .slider-list .slider-con .content {
-        padding:0 0 50px;
-        width: 100%
-    }
 }
 
 .slider-area .sliders .slider-list .slider-con .content h2 {
