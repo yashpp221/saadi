@@ -1903,14 +1903,6 @@ header .main-menus nav ul li a:hover {
     vertical-align: middle
 }
 
-.slider-area .sliders .slider-list .slider-con .content {
-
-align-items: center;
-    justify-content: center;
-    
-}
-
-
 @media only screen and (max-width: 480px) {
     .slider-area .sliders .slider-list .slider-con .content {
         padding:0 0 50px;
