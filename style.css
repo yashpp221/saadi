@@ -2006,6 +2006,192 @@ header .main-menus nav ul li a:hover {
     border-radius: 0 0 200px 200px
 }
 
+.slider-area .sliders {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.slider-area .slider-list {
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-area .slider-list:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider-area .slider-con {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.slider-area .slider-con .content {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 125px 75px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.slider-area .slider-con .content h2 {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 68px;
+  margin: 0 0 20px;
+}
+
+.slider-area .slider-con .content p {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 15px 40px;
+  font-family: lora, serif;
+  border-top: 1px solid #f33c3c;
+  border-bottom: 1px solid #f33c3c;
+  display: inline-block;
+}
+
+.slider-area .slider-con .content .date {
+  display: inline-block;
+  background: #f33c3c;
+  height: 120px;
+  width: 250px;
+  margin: 0 auto 36px;
+  padding: 30px 0;
+  position: relative;
+  border-radius: 0 0 200px 200px;
+}
+
+.slider-area .slider-con .content .date span {
+  display: block;
+  font-size: 24px;
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 3px;
+  position: relative;
+  z-index: 999;
+}
+
+.slider-area .slider-con .content .date em {
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  z-index: 999;
+}
+
+.slider-area .sliders .slick-dots {
+  display: none !important;
+}
+
+.slider-area .slick-prev,
+.slider-area .slick-next {
+  display: inline-block;
+  height: 70px;
+  width: 70px;
+  background: #fff;
+  border-radius: 100%;
+  line-height: 70px;
+  text-align: center;
+  margin-top: -35px;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 999;
+}
+
+.slider-area .slick-prev {
+  left: -70px;
+}
+
+.slider-area .slick-next {
+  right: -70px;
+}
+
+.slider-area .slick-prev:before,
+.slider-area .slick-next:before {
+  content: "\f104";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  line-height: 70px;
+  height: 70px;
+  border-radius: 100%;
+  color: #111;
+  font-size: 18px;
+  text-indent: 0;
+  font-family: fontawesome;
+  font-weight: 700;
+  transition: 0.5s;
+}
+
+.slider-area .slick-next:before {
+  content: "\f105";
+}
+
+.slider-area:hover .slick-prev,
+.slider-area:hover .slick-next {
+  opacity: 1;
+}
+
+.slider-area:hover .slick-prev {
+  left: 20px;
+}
+
+.slider-area:hover .slick-next {
+  right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  .slider-area .slick-prev,
+  .slider-area .slick-next {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+  }
+
+  .slider-area .slider-con {
+    top: 0;
+    margin: 50px 0 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .slider-area .slick-prev,
+  .slider-area .slick-next {
+    display: none;
+  }
+
+  .slider-area .slider-con {
+    top: 0;
+    margin: 25px 0 0;
+  }
+}
+
+
 .about_area .persons {
     position: relative;
     display: block;
