@@ -13,6 +13,11 @@
 <link rel="apple-touch-icon" href="favicon.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick.css">
 
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
 
 <link rel="stylesheet" href="allplugins.css">
 
@@ -115,6 +120,17 @@ $(document).ready(function() {
   });
 });
 </script>  
+<script>
+  $(document).ready(function() {
+    $('.sliders').slick({
+      // Add your desired options here
+      autoplay: true,
+      dots: true,
+      arrows: true,
+      // ...
+    });
+  });
+</script>
 
 <header id="sticky">
 <div class="container-fluid">
