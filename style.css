@@ -1870,7 +1870,7 @@ header .main-menus nav ul li a:hover {
 
 .slider-area .sliders .slider-list .slider-con {
     position: absolute;
-    top: 100%;
+    top: 50%;
     right: 0;
     left: 0;
     text-align: center;
