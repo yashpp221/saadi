@@ -1903,19 +1903,7 @@ header .main-menus nav ul li a:hover {
     vertical-align: middle
 }
 
-.slider-area .sliders .slider-list .slider-con .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    border: 10px solid rgba(255,255,255,.5);
-    background: rgba(0,0,0,.6);
-    padding: 0 125px 75px;
-    overflow: hidden;
-    height: 100%; /* Add this line to make the content fill the entire height */
-}
+
 
 @media only screen and (max-width: 480px) {
     .slider-area .sliders .slider-list .slider-con .content {
