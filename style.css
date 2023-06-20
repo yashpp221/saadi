@@ -1870,7 +1870,7 @@ header .main-menus nav ul li a:hover {
 
 .slider-area .sliders .slider-list .slider-con {
     position: absolute;
-    top: 90%;
+    top: 73%;
     right: 0;
     left: 0;
     text-align: center;
@@ -1903,12 +1903,6 @@ header .main-menus nav ul li a:hover {
     vertical-align: middle
 }
 
-@media only screen and (max-width: 480px) {
-  .slider-area .sliders .slider-list .slider-con .content {
-    text-align: center;
-    padding: 0 20px 75px;
-  }
-}
 
 @media only screen and (max-width: 480px) {
     .slider-area .sliders .slider-list .slider-con .content {
