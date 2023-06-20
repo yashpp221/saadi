@@ -1904,7 +1904,6 @@ header .main-menus nav ul li a:hover {
 }
 
 .slider-area .sliders .slider-list .slider-con .content {
-  display: block;
   text-align: center;
   position: relative;
   border: 10px solid rgba(255, 255, 255, 0.5);
